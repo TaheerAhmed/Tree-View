@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    background-color: #262626;
+  }
+  body {
+    background-color: #262626;
+    font-family: 'Open Sans', sans-serif;
+   
+  }
+ 
+  .text-home{
+  position: relative;
+  top: 15px;
+  left: 17px;
+  }
+  .error{
+    position: absolute;
+    right: 20%;
+    font-size: 100px;
+    color: #fff;
+
+  text-shadow:
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 8px #fff,
+      0 0 42px #0fa,
+      0 0 62px #0fa,
+      0 0 82px rgb(0, 247, 255),
+      0 0 102px rgb(0, 247, 255),
+      0 0 131px rgb(0, 225, 255);
+      animation: flicker infinite 6s;
+
+
+  }@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+ .apologies{
+  position: absolute;
+  right: 26%;
+  max-width: 600px;
+  color:#fff;
+  top: 45%;
+  text-align: center;
+  filter: opacity(7);
+  -webkit-animation: glow 1s ease-in-out infinite ;
+  -moz-animation: glow 1s ease-in-out infinite ;
+  animation: glow 1s ease-in-out infinite ;
+ }
+
+ @keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e600737a, 0 0 40px #e6007369, 0 0 50px #e6007370, 0 0 60px #e6007371, 0 0 70px #e600739d;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da66c, 0 0 40px rgba(255, 77, 166, 0.459)a6, 0 0 50px #ff4da68c, 0 0 60px #ff4da675, 0 0 70px #ff4da67a, 0 0 80px #ff4da683;
+  }
+}
+  

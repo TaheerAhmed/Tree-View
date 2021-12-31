@@ -1,0 +1,42 @@
+.CardHolder{
+background-color: rgb(136, 255, 175);
+
+
+color:rgb(8, 167, 0);
+height: 100%;
+box-sizing: content-box;
+}
+.cardBody{
+    width: 100%;
+    display: inline;
+  
+    
+}
+.cardtitle{
+    font-size: 200%;
+}
+.cardtitle>.position{
+    font-size: 70%;
+}
+.cardDetails{
+    box-sizing: content-box;
+    font-size: 13px;
+    text-align: left;
+    margin: 2%;
+    width: 100%;
+    white-space: initial;
+}
+.cardDetails:hover{
+    font-size:15px;
+    transition:linear 0.25s;
+    color:rgb(49, 118, 43);
+    margin: 2%;
+    white-space:initial;
+  
+
+}
+.position{
+    display: block;
+}
+
+

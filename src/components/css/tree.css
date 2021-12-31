@@ -1,0 +1,63 @@
+.d-tree-container{
+    list-style: none;
+    padding: 2px;
+    width: 100%;
+    
+    
+}
+.d-tree-node{
+padding: 1%;
+border: 12px solid rgb(193, 233, 216);
+
+}
+.d-tree-head{
+   
+    width: 100%;
+    box-sizing: content-box;
+
+
+    background-color:rgb(152, 247, 184); 
+    ;
+    padding: 3%;
+    border: 2px rgb(212, 251, 212) solid;
+}
+.d-tree-head > button{
+    background-color: magenta;
+    display: block;
+    font-size: 100%;
+}
+
+.d-tree{
+    align-items:  center;
+   
+    justify-content: right;
+ 
+    padding: 10px;
+    animation: ease-out 3s;
+    
+}
+.TreeDelete{
+    display: inline;
+    align-items: right;
+    
+}
+.d-tree-head:hover{
+    transform: scale(1.05) translateZ(0);
+   border: 10px bevel rgb(179, 181, 182) ;
+  
+    border: 2px rgb(110, 236, 110) solid;
+    transition: ease-in-out 0.35s;
+    padding: 2%;
+  
+  box-shadow: rgba(110, 236, 206, 0.653) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 2%;
+}
+.d-tree-head .addButton{
+    background-color: rgba(13, 150, 0, 0.558);
+    font-size: 100%;
+    
+}
+.d-tree-head .trashcan{
+    background-color: rgba(13, 150, 0, 0.558);
+    margin-left:2%;
+}
