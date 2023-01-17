@@ -12,7 +12,7 @@ const employeeData = [
   {
     name: "Kevin",
     position: "CEO",
-    email: "CeooftheCommutatusmail@gmail.com",
+    email: "CeooftheCompany@gmail.com",
     phoneNumber: "1234567890",
     department: "Admin",
     id: uuid(),
@@ -20,7 +20,7 @@ const employeeData = [
       {
         name: "Jack",
         position: "HR Head",
-        email: "HRheadcommutatus@gmail.com",
+        email: "HRhead@gmail.com",
         phoneNumber: "09876543212",
         department: "HR",
         id: uuid(),
@@ -84,7 +84,7 @@ const employeeData = [
       {
         name: "Akhilesh",
         position: "Tech Head",
-        email: "Technicalheadcommutatus@gmail.com",
+        email: "Technicalhead@gmail.com",
         phoneNumber: "09876543212",
         id: uuid(),
 

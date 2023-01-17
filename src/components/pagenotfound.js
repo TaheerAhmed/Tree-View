@@ -14,7 +14,7 @@ return (
       <h1 className="error">Click me to Go Back </h1>
       <h1 className="apologies">
         {" "}
-        My Apologies, was unable to create the delete function & edit function  in the given time
+        These Functionalities are a work in progress sorry mate .
       </h1>
     </div>
   </div>
